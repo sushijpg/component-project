@@ -1,12 +1,10 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Kevin Turner
+- **Dot Number**:turner.2087
+- **Due Date**: 9/19/2025
 
 ## Assignment Overview
-
-<!-- TODO: read the assignment overview then delete this comment -->
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -29,7 +27,6 @@ implement.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -52,8 +49,6 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
-
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
 what we're hoping you will learn through this particular aspect of the portfolio
@@ -67,7 +62,6 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
 
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
@@ -106,23 +100,19 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+In terms of career goals, I really just want a stable job where I can support my self
+and be able to comfortably pursue my hobbies. I am obsessed with rock climbing,
+doing it for as many hours as I can a week, and in the time I have to rest I play pick ball
+and video games like starcraft 2 and league of legends. Finally, I do love music as well, listening to probably an hour a day minimum.
 
 ## Assignment
 
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
 that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
-
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -132,7 +122,6 @@ you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
 
-<!-- TODO: review this example component then delete this comment -->
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -200,68 +189,81 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Climb Catalogue
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+   It Models locations and grades of various climbs.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+  void add(climb x)- adds a climb
+  climb removeAny() - removes a climb along with information tied to it
+  int Size- returns number of climbs
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+ Climb hardestClimb()- returns name of highest grade climb or climbs
+ Climb easiestClimb()- returns name of easiest climb or climbs
+ boolean contains(string name)- checks for if the catalogue has a specific named climb
+ Climb get(string)- returns the climb of the matching name
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes as grades change all the time and so it makes the most sense for the data to dynamically alter.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      idk
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      idk
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Yes, useing climb remove any, it would be possible to loop through till findng highest grade for climbhardestclimb.
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2:League of Legends list
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+  contains all league characters and relavant data
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+  void addchampion(champion c)- adds a character to the list
+  champion removeAny()- removes and returns some champion and there data
+  int size() returns the number of champions in the list
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+boolean contains(string)- checks if a certain champion is in the list
+stats getData(string)- returns the relavant stats and data for a chracter
+Void UpdateStats(string,stats new stats)- updates the stats in a specific spot for a specific character
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Stats would be mutable as there extremely subjec to variance but champions would not and would act similiar to strings.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      idk
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      idk
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Yes,getstats would be made through removeany as you could then read data from the removed character before returning everything.
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3:Playlist
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+   Stores specifics songs in a specific order.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+   void add(int position, song s)- adds a song to the play list
+   song remove(int position)- returns the song from the position given
+   int length() returns the number of songs in the play list
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    song get(int position)- returns the song with out removing it from the play list
+    void movesong(int start, int end)- moves song from one location in play list to other
+    void shuffle()- randomizes the order
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+     No as most data points would have no need ever.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      idk
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      idk
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+     Yes,add and remove would make shuffle easy as you can just remove and then add them all to a list, use math.random, and loop through again adding them all back.
 
 ## Post-Assignment
 
@@ -269,8 +271,6 @@ The following sections detail everything that you should do once you've
 completed the assignment.
 
 ### Changelog
-
-<!-- TODO: create CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -309,7 +309,7 @@ of development.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
+
 
 If you have completed the assignment using this template, we recommend that
 you convert it to a PDF before submission. If you're not sure how, check out
@@ -319,11 +319,10 @@ all your work is there before submitting. For future assignments, you will
 just be submitting a link to a pull request. This will be the only time
 you have to submit any PDFs.
 
-<!-- TODO: upload a PDF of this document and the CHANGELOG to Carmen then delete this comment -->
 
 ### Peer Review
 
-<!-- TODO: review the peer review guidelines then delete this comment -->
+
 
 Following the completion of this assignment, you will be assigned three
 students' component brainstorming assignments for review. Your job during the
@@ -350,7 +349,7 @@ If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
 
-<!-- TODO: follow the link to share your feedback then delete this comment -->
+
 
 [example-components]: https://therenegadecoder.com/code/the-never-ending-list-of-small-programming-project-ideas/
 [markdown-to-pdf-guide]: https://therenegadecoder.com/blog/how-to-convert-markdown-to-a-pdf-3-quick-solutions/
