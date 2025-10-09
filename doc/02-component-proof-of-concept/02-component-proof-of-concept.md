@@ -114,8 +114,10 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-<!-- TODO: briefly argue your choice of design or design something
-new; then delete this comment -->
+I am planning on desighing the league of legends character method, which uses a map component. As well as
+creates a unique champion class to hold multiple data points tied to each character such as difficulty and
+description.
+
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
@@ -125,8 +127,6 @@ new; then delete this comment -->
 > VSCode to run git commands. It's entirely up to you. Regardless of your choice,
 > we'll want a branch that you can later make a pull request from with all
 > your changes.
-
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -152,8 +152,6 @@ The following sections detail everything that you should do once you've
 completed the assignment.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -188,7 +186,6 @@ request merge (or at least tag your commits). This is not required.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
