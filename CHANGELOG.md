@@ -23,6 +23,14 @@ the following form: YYYY.0M.0D.
 
 - Changed design to include champion class including data for each character as well as basic methods such as .add, .remove, an printall for the method.
 
+## 2025.10.23
+
+### Added
+
+- Designed kernel and enhanced interfaces for ChampionDB component
+- Created component hierarchy diagram
+
+
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
 [2024.08.07]: https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07
 [2024.01.07]: https://github.com/jrg94/portfolio-project/releases/tag/v2024.01.07

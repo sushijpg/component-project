@@ -6,24 +6,25 @@ import components.simplewriter.SimpleWriter1L;
 public class MVP {
     private static class Champion {
         String name;
-    String description
+        String description;
         String role;
         int difficulty;
 
-    champion(String name, String description, String role, int difficulty){
-        this.name=name;
-        this.description=description;
-        this.role=role;
-        this.difficulty=difficulty;
-    }
+        Champion(String name, String description, String role, int difficulty) {
+            this.name = name;
+            this.description = description;
+            this.role = role;
+            this.difficulty = difficulty;
+        }
 
         public String toString() {
-            return this.name + " (" + this.role + ",difficulty"
-                    + this.difficulty + "):" + this.description;
+            return this.name + " (" + this.role + ", difficulty: "
+                    + this.difficulty + "): " + this.description;
+
         }
     }
 
-    private final Map<String, Champion> champmap;
+    private final Map<String, Champion> champMap;
 
     // * @ensures this.champMap={}
     public MVP() {
