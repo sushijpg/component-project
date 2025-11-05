@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+
+## [2025.10.23]
+
+### Added
+
+- Designed kernel and enhanced interfaces for ChampionDB component
+- Created component hierarchy diagram
+
 ## [2025.9.19]
 
 ### Added
@@ -22,14 +30,6 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include champion class including data for each character as well as basic methods such as .add, .remove, an printall for the method.
-
-## 2025.10.23
-
-### Added
-
-- Designed kernel and enhanced interfaces for ChampionDB component
-- Created component hierarchy diagram
-
 
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
 [2024.08.07]: https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07

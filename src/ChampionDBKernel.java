@@ -1,3 +1,5 @@
+import components.standard.Standard;
+
 /**
  * Kernel component for a {@code ChampionDB}.
  *
@@ -13,7 +15,7 @@
  * this.champions = {}
  * </pre>
  */
-public interface ChampionDBKernel {
+public interface ChampionDBKernel extends Standard {
 
     /**
      * Adds a new champion to the database.

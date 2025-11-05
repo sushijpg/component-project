@@ -35,16 +35,5 @@ public interface ChampionDB extends ChampionDBKernel {
      * @ensures toString = [string showing champions in unspecified order] and
      *          this = #this
      */
-    @Override
-    String toString();
 
-    /**
-     * Reports whether this and the given {@code ChampionDB} are equal.
-     *
-     * @param db
-     *            another {@code ChampionDB}
-     * @return true if both contain exactly the same champions
-     * @ensures equals = (this.champions = db.champions)
-     */
-    boolean equals(ChampionDB db);
 }
