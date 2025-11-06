@@ -14,14 +14,6 @@ the following form: YYYY.0M.0D.
 - Designed kernel and enhanced interfaces for ChampionDB component
 - Created component hierarchy diagram
 
-## [2025.9.19]
-
-### Added
-
-- Designed a climb catalogue component
-- Designed a League of legends list component
-- Designed a play list component
-
 ## [2025.10.8]
 ### Added
 
@@ -30,6 +22,14 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include champion class including data for each character as well as basic methods such as .add, .remove, an printall for the method.
+
+## [2025.9.19]
+
+### Added
+
+- Designed a climb catalogue component
+- Designed a League of legends list component
+- Designed a play list component
 
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
 [2024.08.07]: https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07
