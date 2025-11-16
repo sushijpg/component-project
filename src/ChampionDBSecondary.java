@@ -2,7 +2,7 @@ import components.simplewriter.SimpleWriter;
 
 /**
  * Layered implementation of secondary methods for {@code ChampionDB}.
-
+ * 
  */
 public abstract class ChampionDBSecondary implements ChampionDB {
 

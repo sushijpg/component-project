@@ -76,3 +76,4 @@ public interface ChampionDBKernel extends Standard {
      */
     int size();
 }
+//removed to string and equals as well as extended standard for component interface
