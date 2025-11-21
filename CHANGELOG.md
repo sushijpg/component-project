@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
+## [2025.11.21]
+
+### Added
+
+- Chose and defined map as representation for Champion DB.
+- Created Kernal Implementation for ChampionDB by implementing many methods such as addchampion,removechampion,getchampion, and clear.
+- Extended the ChampionDBsecondary so all secondary methods like contains work.
+- defined the champion class inside kernal implementation
+
 
 ## [2025.11.06]
 
