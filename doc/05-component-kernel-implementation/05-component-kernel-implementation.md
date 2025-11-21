@@ -120,7 +120,7 @@ Below is further rationale/explanation for the rubric items above:
 > discuss how that representation will be restricted (i.e., by convention)
 > and interpreted (i.e., by correspondence).
 
-<!-- TODO: select a representation and explain why -->
+The choice of representation will be a Map<String, Champion> because this will allow for direct connection from champion name to associated data. Additionally many of the methods like getchampion, and size will be easy to implement through a map. While this does limit stored data to what ever is in the champion class, that data structure will be comprhensive to counteract this issue. Ultimately it is just the most straight forward way to organize a database of champions and data about them on the context of a champion class which can effectively hold all the data needed. One weakness is no easy ordering such as if we wanted to list all champions alphbetically. An additionally one is that this data strcuture with many champions could take lots of memory.
 
 > To start making your kernel implementation, make a branch off of main in your
 > new repo called something like `kernel-implementation`. There are many ways to
@@ -142,7 +142,6 @@ Below is further rationale/explanation for the rubric items above:
 > rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 > and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
