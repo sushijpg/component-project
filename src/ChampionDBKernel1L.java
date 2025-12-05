@@ -4,12 +4,12 @@ import components.map.Map1L;
 /**
  * Kernel implementation of ChampionDB using a Map representation.
  *
- * Convention: - champions != null - All keys in champions are non-null, unique,
- * and correspond to the champion's name.
+ * @Convention: - champions != null - All keys in champions are non-null,
+ *              unique, and correspond to the champion's name.
  *
- * Correspondence: - Represents a ChampionDB where each key in the map is the
- * champion's name and the associated value is the Champion object containing
- * name, description, role, difficulty.
+ * @Correspondence: - Represents a ChampionDB where each key in the map is the
+ *                  champion's name and the associated value is the Champion
+ *                  object containing name, description, role, difficulty.
  */
 public class ChampionDBKernel1L extends ChampionDBSecondary {
 
@@ -66,6 +66,17 @@ public class ChampionDBKernel1L extends ChampionDBSecondary {
         return new ChampionDBKernel1L();
     }
 
+    @Override
+    public void transferFrom(ChampionDB source) {
+        assert source != null : "Violation of: source is not null";
+        assert source != this : "Violation of: source is not this";
+
+        ChampionDBKernel1L localSource = (ChampionDBKernel1L) source;
+
+        this.champions = localSource.champions;
+
+        localSource.champions = localSource.createNewRep();
+    }
     // Champion class representing champion data.
 
     private static class Champion {
