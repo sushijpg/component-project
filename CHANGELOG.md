@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
+## [2025.12.06]
+
+### Added
+
+- added multiple demo's, one exploring the data base's uses when comparing multiple data sets and one displaying its uses as a primary database for league of legends characters.
+- Added a full set of test cases to thoroughly check the usability of each method both Kernel and Secondary class.
+
+
+
 ## [2025.11.21]
 
 ### Added

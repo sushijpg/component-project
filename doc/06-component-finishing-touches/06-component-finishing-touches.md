@@ -305,20 +305,32 @@ Take some time to fill them out honestly.
 > A common gripe that students express is how much they feel the work they do
 > in class fails to map to the real world. Now that you've had a chance to
 > complete the portfolio project, how much better (or worse) do you think you
-> understand software development and why?
+> understand software development and why
+I think the expierence I have gotten working with github and developing multiple layers of code has made me
+much more confident and comfotrable with working with software. If im honest I am still deeply worried
+about how different this expierence will be with a boss and different work environment. Ultimately though, this project
+has made me feel far more confident working with software development because I have spent months working on one project
+in github and really given the creation of software some thought through it.
 
-<!-- TODO: discuss -->
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
+One huge gap that surface was not really knowing what I needed to import and what I didn't. By reaching out to peers
+and through online research such as looking at OSU componenets, I better understood what I needed to import. Another
+hole in my knowledge that this assighment helped fill was what types of methods to create such as private and static.
+Having to come up with and design these much more independatly forced me to better understand how all of these bits and pieces work together.
 
-<!-- TODO: discuss -->
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+
+My perspective has shifted, and my image of what the job would feel like has changed from this project.
+This expierence has made me realize how much more methodical and test based this practice is, and how important checks are especially as projects get bigger.
+My enjoyment has increased in some ways and decreased in others. I now dont have a certain excitment about  just building something amazing. But I also
+no longer worry so much about not knowing things, I kinda realized building this how much of development is learning and not just building.
+
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +338,39 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I picked up the skill of figuring out how to get from point A to B in computer science. This is very board
+but generally I didn't really know how to start making a component and just started reading and creating a few files and feel more confindent
+in the start of building something. Another skill that I didn't neccesarily start on this project but utilized and developed further was collaboration.
+I had a lot I did not know for completeing this project and so learning from and recieivng help from others was essential and defining of my success.
+Finally, I developed the skill of perseverance more, as there were several points earlier on where I really wanted to quit out of fear and overwhelm from other classes.
+
+
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+
+
+* collaboration
+* Problem solving in unfamiliar terrain
+* perseverance
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
+Honestly I now hate some of it and love other parts. I have so many family and friends working with data and databases,
+and while I didn't really get  alot of hands on expierence with that, this project has made me further think I want to work with data on bigger scales.
+It also though has made me deeply realize I dont want to build methods for a career, and would rather work with bigger scales and systems.
 
-<!-- TODO: discuss -->
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
-
-<!-- TODO: discuss -->
+Some things I can do are work more with my family and people expierenced in data system and cs. I can start making more mini projects
+and publishing my work to github in hopes of developing skill as well as getting a job in the field. I can also contact some older peers I recieved help with while working on projects like this.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
