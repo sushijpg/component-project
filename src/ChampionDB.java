@@ -1,5 +1,4 @@
 import components.simplewriter.SimpleWriter;
-
 /**
  * Extending {@code ChampionDBKernel} with additional operations.
  *
